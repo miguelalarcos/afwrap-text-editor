@@ -1,0 +1,12 @@
+<body>
+{{>editor}}
+</body>
+
+<template name="editor">
+    {{#with data}}
+        {{#autoForm id='id1' doc=this type='method' meteormethod='save' schema=schema}}
+            <div>{{> afFieldInput  type='textEditor' name='editor'}}</div>
+            <div><button class="ui button" type="submit">submit</button></div>
+        {{/autoForm}}
+    {{/with}}
+</template>

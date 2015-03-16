@@ -1,6 +1,6 @@
 Package.describe({
   name: 'miguelalarcos:afwrap-text-editor',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'wrap over miguelalarcos:text-editor so it works ok with autoform',
   git: 'https://github.com/miguelalarcos/afwrap-text-editor.git',
   documentation: 'README.md'
@@ -13,5 +13,5 @@ Package.onUse(function(api) {
   api.use('templating', 'client');
   api.use('aldeed:autoform@5.0.2', 'client');
   api.use('miguelalarcos:text-editor@0.1.3', 'client');
-  api.addFiles('wrap.coffee');
+  api.addFiles('wrap.coffee', 'client');
 });
