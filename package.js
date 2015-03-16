@@ -1,8 +1,8 @@
 Package.describe({
   name: 'miguelalarcos:afwrap-text-editor',
-  version: '0.0.1',
+  version: '0.1.0',
   summary: 'wrap over miguelalarcos:text-editor so it works ok with autoform',
-  git: '',
+  git: 'https://github.com/miguelalarcos/afwrap-text-editor.git',
   documentation: 'README.md'
 });
 
